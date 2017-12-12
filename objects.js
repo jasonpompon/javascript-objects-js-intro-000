@@ -3,6 +3,6 @@ var playlist = {
     Pink: "Kiss roses"
 }
 
-var updatePlaylist = (playlist, artistName, songTitle) {
+var updatePlaylist = (playlist, artistName, songTitle) => {
     return Object.assign({}, playlist, {artistName: songTitle})
 }
